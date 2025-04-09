@@ -1,0 +1,14 @@
+Django>=4.2
+djangorestframework
+drf-yasg
+django-allauth
+djangorestframework-simplejwt
+drf-spectacular
+django-environ
+Pillow
+psycopg2-binary  # If using PostgreSQL
+mysqlclient  # If using MySQL
+gunicorn  # For production server
+whitenoise  # Static file management
+django-cors-headers
+djangorestframework-authtoken
