@@ -142,14 +142,3 @@ Bạn sẽ thể hiện mối quan hệ giữa **loại khách hàng** và **ch�
     - Có thể phân quyền cho user khác, xử lý yêu cầu hoàn tiền, duyệt đơn hàng, cập nhật kho,…
 
 ---
-
-## 4. **Hướng dẫn vẽ Use Case Diagram**
-
-- **Tạo các Actor**:
-    - Guest, Registered User, VIP User, Admin (4 loại customer).
-- **Tạo các Use Case** tương ứng với mỗi chức năng trong từng module (bạn có thể gom một vài chức năng phụ để biểu diễn gọn trong sơ đồ).
-- **Kết nối Actor** với Use Case nào mà họ có thể thực hiện.
-- **Chỉ rõ các mối quan hệ** (include, extend) nếu cần:
-    - Ví dụ: Use case “Thanh toán” (*Payment*) bao gồm luôn “Xác nhận giao dịch” (include),…
-
-Sau khi hoàn thành use case diagram, bạn có thể tiếp tục xây dựng **Class Diagram**, **Sequence Diagram** hoặc **Activity Diagram** chi tiết hơn để mô tả luồng xử lý từng module trong hệ thống.
